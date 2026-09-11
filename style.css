@@ -1,20 +1,44 @@
+/*TODO: course desription links don't work*/
+
 /*& header*/
 header {
+    color: #4d54d6;
     text-align: center;
-    background-color:aqua;
-    padding: 20px;
+    background-color:#ffffe2;
+    padding: 1px;
+    font-family: "Comic Sans MS", sans-serif;
+    border: 3px solid #ffffdb;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 1px #c4c4b5;
+
+}
+header h1 {
+    margin: 1px;
 }
 nav { /*nav bar*/
     text-align: center;
     word-spacing: 30px;
     padding: 10px;
-    background-color: #f5f5dc;
-    font-family: Helvetica;
+    font-family: "Comic Sans MS", sans-serif;
 }
 nav a { /*nav bar button*/
     color: #ff0000;
     font-size: larger;
 }
+
+/*& Body*/
+body {
+    background-color: #f2dcf5;
+    /* TODO: fix margin. margin: 0; d9c2f0 */
+    margin: 5px;
+}
+
+/*& Main Content*/
+.main-content {
+    margin: 5px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
 
 /*& Panels*/
 .panels {
@@ -23,17 +47,16 @@ nav a { /*nav bar button*/
     gap: 3px;
 }
 
-
 /*& About Me*/
 .about-me {
     flex: 30%;
     padding: 20px;
-    border: 3px solid #cccccc;
+    border: 3px solid #cbafeb;
     border-radius: 10px;
-    background-color: #f2dcf5;
     box-shadow: 0 5px 5px 1px #888888;
 }
 .about-me h1 {
+    color: #e11584;
     text-align: center;
 }
 
@@ -57,29 +80,38 @@ nav a { /*nav bar button*/
     content: "- "
 }
 
+/*~connection*/
+.connect {
+    text-align: center;
+    margin-top: 130px;
+}
+
 /*& My Classes*/
 .classes {
     flex: 30%;
     padding: 20px;
-    border: 3px solid black;
+    border: 3px solid #cbafeb;
     border-radius: 10px;
-    background-color: #f2dcf5;
     box-shadow: 0 5px 5px 1px #888888;
 }
 .classes h1 {
+    color: #e11584;
     text-align: center;
+}
+a {
+    color: blue;
 }
 
 /*& My Blog*/
 .blog {
     flex: 60%;
     padding: 20px;
-    border: 3px solid black;
+    border: 3px solid #cbafeb;
     border-radius: 10px;
-    /* background-color: #f2dcf5; */
     box-shadow: 0 5px 5px 1px #888888;
 }
 .blog h1 {
+    color: #e11584;
     text-align: center;
 }
 .blog h2 {
