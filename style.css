@@ -16,12 +16,24 @@ nav a { /*nav bar button*/
     font-size: larger;
 }
 
-/*& About Me*/
-.profile {
-    flex: 70%;
-    padding: 20px;
+/*& Panels*/
+.panels {
+    display: flex;
+    flex-wrap: gap;
+    gap: 3px;
 }
-.profile h1 {
+
+
+/*& About Me*/
+.about-me {
+    flex: 30%;
+    padding: 20px;
+    border: 3px solid #cccccc;
+    border-radius: 10px;
+    background-color: #f2dcf5;
+    box-shadow: 0 5px 5px 1px #888888;
+}
+.about-me h1 {
     text-align: center;
 }
 
@@ -31,7 +43,7 @@ nav a { /*nav bar button*/
     gap: 10px;
 }
 .pictures img {
-    width: 140px;
+    width: 130px;
     height: auto;
     margin-left: 0;
     margin-right: 0;
@@ -45,10 +57,34 @@ nav a { /*nav bar button*/
     content: "- "
 }
 
+/*& My Classes*/
+.classes {
+    flex: 30%;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #f2dcf5;
+    box-shadow: 0 5px 5px 1px #888888;
+}
+.classes h1 {
+    text-align: center;
+}
+
 /*& My Blog*/
-.row {
-    display: flex;
-    flex-wrap: wrap;
+.blog {
+    flex: 60%;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    /* background-color: #f2dcf5; */
+    box-shadow: 0 5px 5px 1px #888888;
+}
+.blog h1 {
+    text-align: center;
+}
+.blog h2 {
+    text-align: center;
+    color: purple;
 }
 .post-text-box {
     flex: 70%;
