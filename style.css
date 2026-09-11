@@ -83,7 +83,7 @@ body {
 /*~connection*/
 .connect {
     text-align: center;
-    margin-top: 130px;
+    margin-top: 150px;
 }
 
 /*& My Classes*/
@@ -98,8 +98,26 @@ body {
     color: #e11584;
     text-align: center;
 }
+.classes h4 {
+    color: purple;
+    text-align: center;
+    margin-bottom: 5px;
+}
 a {
     color: blue;
+}
+
+/*~table*/
+.class-table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.class-table th, .class-table td {
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: center;
+    font-size: 13px;
 }
 
 /*& My Blog*/
