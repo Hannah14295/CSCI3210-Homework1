@@ -1,5 +1,3 @@
-/*TODO: course desription links don't work*/
-
 /*& header*/
 header {
     color: #4d54d6;
@@ -29,7 +27,6 @@ nav a { /*nav bar button*/
 /*& Body*/
 body {
     background-color: #f2dcf5;
-    /* TODO: fix margin. margin: 0; d9c2f0 */
     margin: 5px;
 }
 
